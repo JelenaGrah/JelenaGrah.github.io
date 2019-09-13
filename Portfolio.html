@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Jelena G - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./Portfolio.css" type="text/css" rel="stylesheet"></link>
+
+    <script src="./portfolio.js" type="text/javascript">
+    </script>
+
+</head>
+
+<body>
+
+    <button onclick="topFunction()" id="topbutton" title="Go to top">Top</button>
+
+    <header>
+
+        <h1>Jelena Grahovac</h1>
+
+        <h2>Tjänster inom digital analys</h2>
+
+        <div>
+
+            <div class="button-container" id="flex">
+
+                <div class="box">
+                    <a href="#about">Om mig</a>
+                </div>
+
+                <div class="box">
+                    <a href="#portfolio">Portfolio</a>
+                </div>
+
+                <div class="box">
+                    <a href="#contact">Kontakt</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <div class="about" id="about">
+
+
+        <h3 class="headline">Om mig</h3>
+
+
+        <p class="about-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium aenean pharetra magna ac placerat vestibulum lectus mauris. Vestibulum rhoncus est pellentesque elit ullamcorper
+            dignissim cras. Amet justo donec enim diam vulputate ut pharetra sit.
+        </p>
+
+    </div>
+
+    <br>
+
+    <div class="portfolio" id="portfolio">
+
+        <h3 class="headline">Portfolio</h3>
+
+        <h4 class="project-headline">Projekt Aliquetbibendum</h4>
+
+        <div class='readmore' id='readmore1'>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id consectetur purus ut faucibus. Nam at lectus urna duis convallis convallis tellus id interdum. Diam vulputate ut
+                pharetra sit amet aliquam. Tempor id eu nisl nunc mi ipsum faucibus vitae.
+
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
+                    <li>Quis varius quam quisque id diam vel quam elementum. Sed viverra ipsum nunc aliquet bibendum enim.</li>
+                    <li>Magna sit amet purus gravida quis blandit turpis cursus in.</li>
+                </ul>
+            </p>
+
+            <br>
+
+            <p><i>"Ac turpis egestas integer eget aliquet nibh praesent."</i> <br>- Sed Viverra, Aliquetbibendum</p>
+
+            <br><br>
+
+        </div>
+
+        <button class="readmorebutton" id="readmorebutton1" onclick="toggleReadMore(1)">
+            Läs mer
+        </button>
+
+
+
+        <h4>Projekt Facilicis</h4>
+
+        <div class='readmore' id='readmore2'>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu lobortis elementum nibh tellus molestie nunc. Nunc consequat interdum varius sit amet mattis vulputate enim. Aliquet
+                sagittis id consectetur purus ut faucibus. Nisl nisi scelerisque eu ultrices vitae. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Interdum velit euismod in pellentesque. <br><br> Augue neque gravida in fermentum et sollicitudin
+                ac. Elementum sagittis vitae et leo duis. Mattis pellentesque id nibh tortor id aliquet lectus proin nibh. Facilisis leo vel fringilla est ullamcorper eget nulla. Ut sem nulla pharetra diam. Gravida arcu ac tortor dignissim convallis aenean
+                et tortor. A scelerisque purus semper eget duis. Vitae turpis massa sed elementum tempus egestas sed sed.</p>
+
+            <ul>
+                <li>Eros in cursus turpis massa tincidunt. Ultricies integer quis auctor elit sed vulputate mi sit amet.</li>
+            </ul>
+
+            <br>
+
+            <p><i>"A lacus vestibulum sed arcu non odio euismod! Aliquam etiam erat velit scelerisque in dictum non consectetur a. Convallis convallis tellus id interdum velit laoreet id. Sapien
+            eget mi proin sed libero enim sed faucibus turpis."</i> <br>- Vitae Turpis, Facilicis</p>
+
+            <br><br>
+
+        </div>
+        <button class="readmorebutton" id="readmorebutton2" onclick="toggleReadMore(2)">
+                Läs mer
+            </button>
+
+
+        <h4>Projekt Aliquam</h4>
+
+        <div class='readmore' id='readmore3'>
+
+            <p> Felis bibendum ut tristique et egestas. Enim ut tellus elementum sagittis vitae et leo. Consectetur lorem donec massa sapien faucibus et molestie. Enim facilisis gravida neque convallis a cras semper. Purus faucibus ornare suspendisse sed
+                nisi lacus sed viverra. Suspendisse potenti nullam ac tortor. A lacus vestibulum sed arcu non odio euismod. <br><br>Aliquam etiam erat velit scelerisque in dictum non consectetur a. Convallis convallis tellus id interdum velit laoreet
+                id. Sapien eget mi proin sed libero enim sed faucibus turpis. Dignissim cras tincidunt lobortis feugiat vivamus. Egestas sed sed risus pretium quam vulputate dignissim suspendisse.</p>
+
+            <ul>
+                <li>Nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi.</li>
+                <li>Suspendisse potenti nullam ac tortor. A lacus vestibulum sed arcu non odio euismod.Elementum sagittis vitae et leo duis. Mattis pellentesque id nibh tortor id aliquet lectus proin nibh.</li>
+            </ul>
+
+            <br>
+
+            <p><i>"Diam vulputate ut pharetra sit amet aliquam. Tempor id eu nisl nunc mi ipsum faucibus vitae!"</i> <br>-Elementum Sagittis, Aliquam
+            </p>
+
+            <br><br>
+
+        </div>
+        <button class="readmorebutton" id="readmorebutton3" onclick="toggleReadMore(3)">
+        Läs mer
+    </button>
+    </div>
+
+    <br>
+
+    <div class="contact" id="contact">
+
+        <h3 class="headline">Kontakt</h3>
+
+        <p>
+            <a class='contact' href='mailto:grahovac.j@gmail.com'>grahovac.j@gmail.com</a> <br>
+            <strong>+4670 64 28 541</strong><br>
+            <a class='contact' href='https://se.linkedin.com/in/jelena-grahovac-798b2476' target='_blank'> LinkedIn</a>
+
+    </div>
+
+</body>
+
+</html>
