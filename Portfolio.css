@@ -25,6 +25,10 @@ a {
     font-weight: bold;
 }
 
+a:focus {
+    outline: none;
+}
+
 .headline {
     background-color: rgb(17, 0, 46);
     color: rgb(255, 255, 255);
@@ -177,7 +181,7 @@ li {
     background-color: rgb(60, 51, 77);
 }
 
-.topbutton:focus {
+#topbutton:focus {
     outline: none;
 }
 
@@ -224,4 +228,9 @@ li {
     h2 {
         padding-left: 10px;
     }
+}
+
+a[href^=tel] {
+    text-decoration: inherit;
+    color: inherit;
 }
